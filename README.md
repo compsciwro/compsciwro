@@ -21,15 +21,19 @@
 ---
 
 # 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
-![Visual Studio Code](https://img.shields.io/badge/VS%20Code-0078d7?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![Anaconda](https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) 
-![Framer](https://img.shields.io/badge/Framer-black?style=for-the-badge&logo=framer&logoColor=blue) 
-![Delphi](https://img.shields.io/badge/Delphi-E82424?style=for-the-badge&logo=delphi&logoColor=white) 
+![Python](https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Java](https://img.shields.io/badge/java-E76F00?style=for-the-badge&logo=java&logoColor=white) 
+![HTML5](https://img.shields.io/badge/html5-DD4B25?style=for-the-badge&logo=html5&logoColor=white)
+![Visual Studio Code](https://img.shields.io/badge/VS%20Code-1E90FF?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![C](https://img.shields.io/badge/C-5C6BC0?style=for-the-badge&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C++-007ACC?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Trinket](https://img.shields.io/badge/Trinket-0096FF?style=for-the-badge&logo=codeforces&logoColor=white)
+![GNU Octave](https://img.shields.io/badge/GNU_Octave-0892D0?style=for-the-badge&logo=gnu&logoColor=white)
+![Anaconda](https://img.shields.io/badge/Anaconda-3AA655?style=for-the-badge&logo=anaconda&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
+![Framer](https://img.shields.io/badge/Framer-202124?style=for-the-badge&logo=framer&logoColor=00BFFF)
+![Delphi](https://img.shields.io/badge/Delphi-C51230?style=for-the-badge&logo=delphi&logoColor=white)  
+
 
 ---
 
