@@ -2,7 +2,7 @@
 
 <img src="https://github.com/user-attachments/assets/d20e1d44-40f4-44b5-944e-902d2b0f7cbd" width="800"/>
 
-🎓 I'm a 21-year-old **Computer Science student** in my final year at the **University of the Western Cape**.  
+🎓 I'm a 22-year-old **Computer Science Graduate** currently doing my Honours at the **University of the Western Cape**.  
 💻 Passionate about **software development** and **UI/UX design**.  
 🔐 Currently exploring the world of **cybersecurity** through Capture The Flag challenges
 
