@@ -64,7 +64,7 @@ No publications yet.
 
 ## 🤝 Affiliations & Memberships
 - University of the Western Cape Computer Science Student
-- Self-learning Cybersecurity Community Participant (CTF platforms)
+- Small Business Owner, nailsbyRo 
 
 ---
 
