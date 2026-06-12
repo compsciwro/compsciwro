@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rolande Solomons — Computer Science Graduate, Software Developer, and AR & Game Development enthusiast. Portfolio of interactive software, AR applications, games, and research." />
+  <title>Rolande Solomons — Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>✨</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#home" class="nav__logo">RS<span>.</span></a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#home" class="nav__link">Home</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="#projects" class="nav__link">Projects</a>
+        <a href="#skills" class="nav__link">Skills</a>
+        <a href="#timeline" class="nav__link">Experience</a>
+        <a href="#blog" class="nav__link">Writing</a>
+        <a href="#contact" class="nav__link">Contact</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <span class="theme-toggle__icon">🌙</span>
+        </button>
+        <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="blob blob--1"></span>
+        <span class="blob blob--2"></span>
+        <span class="blob blob--3"></span>
+      </div>
+
+      <div class="hero__inner container">
+        <p class="hero__eyebrow reveal">👋 Hi, I'm</p>
+        <h1 class="hero__name reveal">Rolande Solomons</h1>
+        <p class="hero__tagline reveal">
+          <span id="typed"></span><span class="cursor" aria-hidden="true">|</span>
+        </p>
+        <p class="hero__intro reveal">
+          I build interactive software, AR applications, games, and research-based digital
+          systems — combining technical development with clean, user-friendly experiences.
+        </p>
+
+        <div class="hero__cta reveal">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="https://github.com/compsciwro" target="_blank" rel="noopener" class="btn btn--ghost">GitHub</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
+          <a href="#contact" class="btn btn--ghost">Contact Me</a>
+        </div>
+
+        <div class="hero__stats reveal">
+          <div class="stat"><span class="stat__num" data-count="5">0</span><span class="stat__label">Featured projects</span></div>
+          <div class="stat"><span class="stat__num" data-count="6">0</span><span class="stat__label">Languages</span></div>
+          <div class="stat"><span class="stat__num" data-count="3">0</span><span class="stat__label">Years building</span></div>
+        </div>
+      </div>
+
+      <a href="#about" class="hero__scroll" aria-label="Scroll to about">
+        <span class="mouse"></span>
+      </a>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <p class="section__kicker reveal">01 — About</p>
+        <h2 class="section__title reveal">About Me</h2>
+        <div class="about">
+          <div class="about__text reveal">
+            <p>
+              I am a Computer Science graduate with experience in <strong>software development</strong>,
+              <strong>augmented reality</strong>, <strong>game development</strong>, and research-based
+              projects. I enjoy building interactive applications that solve problems, teach concepts,
+              or create engaging user experiences.
+            </p>
+            <p>
+              My background spans Computer Science, problem-solving, software development, Unity, AR,
+              Python, and web development. I care about turning complex ideas into clean, approachable tools.
+            </p>
+            <div class="about__chips">
+              <span class="chip">Software Development</span>
+              <span class="chip">Augmented Reality</span>
+              <span class="chip">Game Development</span>
+              <span class="chip">Research</span>
+            </div>
+          </div>
+          <aside class="about__card reveal">
+            <div class="about__avatar">RS</div>
+            <h3>Rolande Solomons</h3>
+            <p class="about__role">CS Graduate · Software Developer</p>
+            <ul class="about__facts">
+              <li><span>📍</span> University of the Western Cape</li>
+              <li><span>🎮</span> AR &amp; Game Development</li>
+              <li><span>🧪</span> Research-based projects</li>
+              <li><span>✉️</span> Open to collaboration</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary btn--block">Get in touch</a>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <p class="section__kicker reveal">02 — Work</p>
+        <h2 class="section__title reveal">Projects</h2>
+        <p class="section__lead reveal">
+          A selection of work that answers one question clearly: <em>what can Rolande build?</em>
+        </p>
+
+        <div class="filters reveal" id="filters">
+          <button class="filter is-active" data-filter="all">All</button>
+          <button class="filter" data-filter="ar">AR</button>
+          <button class="filter" data-filter="games">Games</button>
+          <button class="filter" data-filter="ai">AI / ML</button>
+          <button class="filter" data-filter="web">Web</button>
+        </div>
+
+        <div class="projects" id="projectGrid">
+          <!-- cards injected by JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="section__kicker reveal">03 — Toolkit</p>
+        <h2 class="section__title reveal">Skills</h2>
+        <div class="skills">
+          <div class="skill-group reveal">
+            <h3>💻 Programming</h3>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">Java</span><span class="tag">C#</span>
+              <span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>🛠️ Tools &amp; Frameworks</h3>
+            <div class="tags">
+              <span class="tag">Unity</span><span class="tag">Vuforia</span><span class="tag">Git</span>
+              <span class="tag">GitHub</span><span class="tag">Pygame</span><span class="tag">Gymnasium</span>
+              <span class="tag">Stable-Baselines3</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>🎨 Design &amp; 3D</h3>
+            <div class="tags">
+              <span class="tag">Adobe Photoshop</span><span class="tag">3DS Max</span>
+              <span class="tag">UI Design</span><span class="tag">3D Assets</span>
+            </div>
+          </div>
+          <div class="skill-group reveal">
+            <h3>🧠 Other</h3>
+            <div class="tags">
+              <span class="tag">Research</span><span class="tag">Technical Writing</span>
+              <span class="tag">Problem-Solving</span><span class="tag">Teamwork</span><span class="tag">Presentation</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== EDUCATION / EXPERIENCE ===== -->
+    <section class="section section--alt" id="timeline">
+      <div class="container">
+        <p class="section__kicker reveal">04 — Background</p>
+        <h2 class="section__title reveal">Education &amp; Experience</h2>
+        <div class="timeline">
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-tag">Education</span>
+              <h3>BSc Computer Science</h3>
+              <p class="tl-org">University of the Western Cape</p>
+              <p>Studied Computer Science, Mathematics, and Physics with a focus on software
+                 development, game development, AI, and augmented reality.</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-tag">Experience</span>
+              <h3>Tutor</h3>
+              <p class="tl-org">University of the Western Cape</p>
+              <p>Helped students understand programming and computer science concepts through
+                 practical explanations and guided, hands-on support.</p>
+            </div>
+          </div>
+          <div class="tl-item reveal">
+            <div class="tl-dot"></div>
+            <div class="tl-card">
+              <span class="tl-tag">Focus Areas</span>
+              <h3>Software · Games · AR · AI</h3>
+              <p class="tl-org">Ongoing</p>
+              <p>Building interactive applications and research prototypes across game development,
+                 augmented reality, and reinforcement learning.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CV ===== -->
+    <section class="section cv" id="cv">
+      <div class="container cv__inner reveal">
+        <div>
+          <h2 class="section__title">Want the full picture?</h2>
+          <p class="section__lead">Download my CV for a complete look at my formal background and experience.</p>
+        </div>
+        <a href="assets/Rolande-Solomons-CV.pdf" download class="btn btn--primary btn--lg">⬇ Download CV</a>
+      </div>
+    </section>
+
+    <!-- ===== BLOG / RESEARCH ===== -->
+    <section class="section section--alt" id="blog">
+      <div class="container">
+        <p class="section__kicker reveal">05 — Writing</p>
+        <h2 class="section__title reveal">Research &amp; Notes</h2>
+        <p class="section__lead reveal">Short write-ups on things I've built and explored.</p>
+        <div class="posts">
+          <article class="post reveal">
+            <span class="post__meta">AR · Unity</span>
+            <h3>What I learned building an AR Solar System app</h3>
+            <p>Lessons from image tracking, 3D model optimisation, and designing educational AR interactions.</p>
+            <span class="post__link">Read more →</span>
+          </article>
+          <article class="post reveal">
+            <span class="post__meta">AI · Reinforcement Learning</span>
+            <h3>Using reinforcement learning in a board game prototype</h3>
+            <p>Training agents with Gymnasium and Stable-Baselines3, and what reward shaping taught me.</p>
+            <span class="post__link">Read more →</span>
+          </article>
+          <article class="post reveal">
+            <span class="post__meta">Research</span>
+            <h3>Nanobubbles &amp; water treatment — an overview</h3>
+            <p>A research-based look at nanobubble technology and its potential in water treatment.</p>
+            <span class="post__link">Read more →</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="section" id="contact">
+      <div class="container">
+        <p class="section__kicker reveal">06 — Contact</p>
+        <h2 class="section__title reveal">Let's work together</h2>
+        <p class="section__lead reveal">
+          Interested in working together or viewing more of my work? Feel free to reach out.
+        </p>
+
+        <div class="contact">
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your name" required />
+              <small class="error" data-for="name"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+              <small class="error" data-for="email"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project…" required></textarea>
+              <small class="error" data-for="message"></small>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">Send message</button>
+            <p class="form-status" id="formStatus" role="status"></p>
+          </form>
+
+          <div class="contact__links reveal">
+            <a class="contact__link" href="mailto:rolande1412@gmail.com">
+              <span>✉️</span><div><strong>Email</strong><small>rolande1412@gmail.com</small></div>
+            </a>
+            <a class="contact__link" href="https://github.com/compsciwro" target="_blank" rel="noopener">
+              <span>🐙</span><div><strong>GitHub</strong><small>@compsciwro</small></div>
+            </a>
+            <a class="contact__link" href="https://www.linkedin.com/" target="_blank" rel="noopener">
+              <span>💼</span><div><strong>LinkedIn</strong><small>Connect with me</small></div>
+            </a>
+            <a class="contact__link" href="https://instagram.com/ilyrolande" target="_blank" rel="noopener">
+              <span>📸</span><div><strong>Instagram</strong><small>@ilyrolande</small></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Rolande Solomons</span>
+      <span>Built with care · clean &amp; simple ✨</span>
+    </div>
+  </footer>
+
+  <!-- Project detail modal -->
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal__close" data-close aria-label="Close">×</button>
+      <div class="modal__media" id="modalMedia"></div>
+      <h3 id="modalTitle"></h3>
+      <p class="modal__desc" id="modalDesc"></p>
+      <div class="modal__tools" id="modalTools"></div>
+      <p class="modal__role" id="modalRole"></p>
+      <div class="modal__actions" id="modalActions"></div>
+    </div>
+  </div>
+
+  <a href="#home" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
