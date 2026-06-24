@@ -1,13 +1,13 @@
-## Hi, I'm Rolande ✨
+## Hi, I'm Rolande 🌷
 
-<img width="1322" height="661" alt="VT323_under_10MB_final" src="https://github.com/user-attachments/assets/6711ad27-8d2d-4706-b7a0-4a4473044167" />
+<img width="400" height="200" alt="VT323 (2)" src="https://github.com/user-attachments/assets/41233eef-da21-4e46-8bb5-73e0355ed1e3" />
 
 ---
 
 ## 🧍 Personal Introduction
 🎓 Computer Science Graduate currently completing Honours at the **University of the Western Cape**  
-💻 Passionate about software development, UI/UX design and cybersecurity  
-🔐 Actively completing my Honours Thesis
+💻 Passionate about Software Development and Design
+🔐 Actively completing my Honours Thesis under Reinforcement Learning
 
 I am an energetic and motivated developer with strong communication and problem-solving skills. I enjoy building user-friendly systems and continuously improving my technical abilities while preparing for a career in the tech industry.
 
@@ -15,7 +15,8 @@ I am an energetic and motivated developer with strong communication and problem-
 
 ## 🎓 Education
 **University of the Western Cape**  
-Bachelor of Science in Computer Science (2022 – 2025)
+BSc in Computer Science (2022 – 2025)
+BSc (Hons) of Computer Science (Present)
 
 **CBC St John’s Parklands**  
 Bachelors Pass (Class of 2021)
@@ -27,13 +28,17 @@ Bachelors Pass (Class of 2021)
 ### Technical Skills
 - Python
 - Java
+- C#
 - C / C++
-- HTML
+- Unity
+- 3DS MAX
+- HTML & CSS
 - GNU Octave
 - VS Code
-- UI/UX Design Tools (Canva, Framer)
+- UI/UX Design Tools (Canva, Framer, Adobe Photoshop)
 
 ### Soft Skills
+- Leadership
 - Communication
 - Teamwork
 - Critical Thinking
@@ -42,7 +47,7 @@ Bachelors Pass (Class of 2021)
 
 ### Interests
 - Software Development
-- Cybersecurity (CTF Challenges)
+- Reinforcement Learning
 - UI/UX Design
 - Learning new frameworks & technologies
 
@@ -52,8 +57,8 @@ Bachelors Pass (Class of 2021)
 **Academic Programming Projects**  
 Developed various applications and problem-solving programs during university coursework using Python, Java and C++.
 
-**Small Business Branding Project**  
-Managed branding and online presence for a small nail business, applying design and digital marketing skills.
+**Honours Thesis**  
+Bloomward is a custom strategy game project built around flowers, spirits, seasons, and spreading corruption.
 
 ---
 
