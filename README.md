@@ -1,6 +1,6 @@
 ## Hi, I'm Rolande ✨
 
-<img src="https://github.com/user-attachments/assets/d20e1d44-40f4-44b5-944e-902d2b0f7cbd" width="800"/>
+<img width="1322" height="661" alt="VT323_under_10MB_final" src="https://github.com/user-attachments/assets/6711ad27-8d2d-4706-b7a0-4a4473044167" />
 
 ---
 
