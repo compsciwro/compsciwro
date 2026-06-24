@@ -1,7 +1,7 @@
 ## Hi, I'm Rolande 🌷
 
 <p align="center">
-  <img width="800" height="400" alt="VT323" src="https://github.com/user-attachments/assets/15ef17a2-a9a7-4121-8b68-00a8bf0c65a3" />
+  <img width="800" height="400" alt="GitHub Banner" src="https://github.com/user-attachments/assets/e66d0975-5459-4d3d-8733-44cd8aca152c" />
 </p>
 
 ---
