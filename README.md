@@ -9,7 +9,7 @@
 ## 🧍 Personal Introduction
 🎓 Computer Science Graduate currently completing Honours at the **University of the Western Cape**  
 💻 Passionate about Software Development and Design
-🫧 Actively completing my Honours Thesis under Reinforcement Learning
+🫧 Actively completing my Honours Thesis focused on Reinforcement Learning
 
 I am an energetic and motivated developer with strong communication and problem-solving skills. I enjoy building user-friendly systems and continuously improving my technical abilities while preparing for a career in the tech industry.
 
