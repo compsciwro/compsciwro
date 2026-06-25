@@ -1,8 +1,14 @@
 ## Hi, I'm Rolande 🌷
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/bc60eb13-cfcd-415a-877d-52f089e66fec" alt="GitHub Banner" width="800" />
+  <img src="https://github.com/user-attachments/assets/150833e9-a11f-4238-8764-40188b731504" alt="bannerPersonal" width="800" />
 </p>
+
+
+
+
+
+
 
 ---
 
